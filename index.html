@@ -1,17 +1,12 @@
 <html>
-  <head></head>
-  <body>
-    <form method="post" name="myemailform">
-     Enter Name:	<input type="text" name="name">
-     Enter Email Address:	<input type="text" name="email">
-     Enter Message:	<textarea name="message"></textarea><br/><br/>
-     <input type="submit" value="Send Form">
-    </form>
-    <?php
-     $name = $_POST['name'];
-     $visitor_email = $_POST['email'];
-     $message = $_POST['message'];
-     ?>
-  </body>
+<body>
+
+<form action="welcome.php" method="post">
+Name: <input type="text" name="name"><br>
+E-mail: <input type="text" name="email"><br>
+<input type="submit">
+</form>
+
+</body>
 </html>
     
